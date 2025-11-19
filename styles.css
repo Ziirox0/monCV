@@ -1,3 +1,24 @@
+html {
+    background-color: beige; /* Couleur de fond burlywood */
+}
+
 .titre {
     text-align: center;
+}
+
+.start {
+    text-align: left; /* Alignement à gauche */
+    border: 2px solid black; /* Bordure noire de 2px */
+    padding-top: 20px; /* Padding en haut de 20px */
+    padding: 30px; /* Padding de 30px tout autour */
+    margin: 30px; /* Marge de 30px tout autour */
+    margin-left: 30px; /*Marge à gauche de 30px */
+    margin: auto; /* Centrage horizontal */
+    width: 50%; /* Largeur de 10% */
+}
+
+.retour {
+    text-align: right; /* Centrage du texte */
+    font-size: 20px; /* Taille de police de 20px */
+    margin-top: -4%; /* Marge en haut de 20px */
 }
