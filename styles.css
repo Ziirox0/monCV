@@ -1,20 +1,58 @@
-html {
+.html {
+    width: 100%;
+}
+
+#pagecv {
     background-color: beige; /* Couleur de fond burlywood */
+}
+
+#fond {
+    background-color: beige; /* Couleur de fond burlywood */
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: #faf6e9;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .titre {
     text-align: center;
 }
 
+.credit {
+    text-align: center;
+    font-size: 0.9rem;
+    margin-top: 550px;
+    color: #a88d32;
+}
+
 .start {
-    text-align: left; /* Alignement à gauche */
-    border: 2px solid black; /* Bordure noire de 2px */
-    padding-top: 20px; /* Padding en haut de 20px */
-    padding: 30px; /* Padding de 30px tout autour */
-    margin: 30px; /* Marge de 30px tout autour */
-    margin-left: 30px; /*Marge à gauche de 30px */
-    margin: auto; /* Centrage horizontal */
-    width: 50%; /* Largeur de 10% */
+  background: #2f2f2f;
+  padding: 60px 40px;
+  border-radius: 205px;
+  width: 380px;
+  margin-bottom: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.start h1 {
+  margin : 0 0 20px 0;
+  color : #ffcc33;
+  font-size: 2rem;
+}
+
+.start p {
+  color: #ffffff;
+  font-size: 1.1rem;
+}
+
+.start a {
+  color:  #ffcc33;
+  text-decoration: underline;
+  font-weight: bold;
 }
 
 .retour {
